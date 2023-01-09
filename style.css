@@ -1,0 +1,93 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenitore {
+    border-radius: 2%;
+    margin: 2% auto;
+    width: 60%;
+   
+    background-color: rgba(0, 0, 0, 0.516);
+    padding: 70px;
+}
+
+/* regole header*/
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #00dd00;
+    margin: 10px 0 5px;
+}
+
+header img {
+    width: 25%;
+}
+
+header nav>div {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+button {
+    padding: 0 5px;
+}
+
+/* regole main */
+main {
+    color: white;
+}
+
+main .monopattino h2{
+    font-weight: 500;
+}
+
+main .monopattino {
+    margin: 20px 0;
+}
+
+main .monopattino .distanza {
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* Cariche */
+.carica {
+    border-radius: 5px;
+    height: 25px;
+}
+
+.arancione {
+    width: 40%;
+    background-color: #F5B453;
+}
+
+.verde {
+    width: 60%;
+}
+
+.rosso {
+    width: 20%;
+    background-color: #BE4141;
+}
+
+/* Colori Background */
+nav>div, .carica.verde {
+    background-color: #00dd00;
+}
